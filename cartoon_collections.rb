@@ -8,8 +8,8 @@ def roll_call_dwarves(dwarves_list) # code an argument here
 end
 
 def summon_captain_planet(planeteer_calls) #upcase/element & w/ "!", twice again
-    planeteer_calls.index[i]
     planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+    planeteer_calls.index[i]
     planeteer_calls.map(&:upcase!) #do |i|
 end
 
