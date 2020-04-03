@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index
-  dwarves.each do |dwarf|
+  dwarves << {|dwarf, index|}
   end
 end
 def summon_captain_planet(planeteer_calls) #upcase/element & w/ "!", twice again
