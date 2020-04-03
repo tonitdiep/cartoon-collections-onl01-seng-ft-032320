@@ -4,10 +4,11 @@ def roll_call_dwarves(dwarves)
     puts "#{index}. #{name}"
   end
 end
-def summon_captain_planet(planeteer_calls) #upcase/element & w/ "!", twice again
+
+def summon_captain_planet(planeteer_calls) 
     #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
     #planeteer_calls.index[i]
-    #planeteer_calls.map(&:upcase!) do |planeteer_calls|
+    planeteer_calls.map(&:upcase!) do |planeteer_calls|
 end
 
 def long_planeteer_calls()# code an argument here
