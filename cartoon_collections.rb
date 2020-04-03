@@ -10,6 +10,7 @@ end
 def summon_captain_planet(planeteer_calls) # code an argument here
     #upcase each element with and exclamation add
     #planeteer_calls.index[i]
+    planeteer_calls = ["earth", "wind", "fire", "water", "heart"].index
     planeteer_calls.map(&:upcase!) #do |i|
 end
 
