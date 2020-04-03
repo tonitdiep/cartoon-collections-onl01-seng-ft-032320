@@ -10,6 +10,7 @@ def summon_captain_planet(planeteer_calls)
       call.upcase << "!"
     #(i=>i.toUpperCase()+"!")
     end
+end
 
 def long_planeteer_calls()# code an argument here
   # Your code here
