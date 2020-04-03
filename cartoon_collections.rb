@@ -6,7 +6,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-    return planeteer_calls.collect(i=>i.toUpperCase()+"!")
+    planeteer_calls.map do |call|
+      call.capitalize << "!"
+    #(i=>i.toUpperCase()+"!")
     end
 
 def long_planeteer_calls()# code an argument here
