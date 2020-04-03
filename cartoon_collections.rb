@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves_list) # code an argument here
   #return_dwarves_list = []
-  dwarves_list.each_with_index {|value, index|}
+  dwarves_list.each #_with_index
   #dwarves_list << return_dwarves_list {"#{index+1}" "#{name}"}
 #end
   #puts dwarves_list
