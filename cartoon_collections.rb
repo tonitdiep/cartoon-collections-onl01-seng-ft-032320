@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(planeteer_calls) # code an argument here
     #upcase each element with and exclamation add
-    planeteer_calls.map #(&:upcase!)
+    planeteer_calls.map(&:upcase!)
 end
 
 def long_planeteer_calls# code an argument here
