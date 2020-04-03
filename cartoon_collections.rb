@@ -8,7 +8,7 @@ end
 def summon_captain_planet(planeteer_calls)
 
 
-    {planeteer_calls.map(i=>i)}  |planeteer_calls|
+    {planeteer_calls.map(i=>i.toUpperCase()+}  |planeteer_calls|
     end
 end
 def long_planeteer_calls()# code an argument here
