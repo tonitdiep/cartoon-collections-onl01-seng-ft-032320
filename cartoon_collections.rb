@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index
-    puts dwarves
+    puts ["Doc", "Dopey", "Bashful", "Grumpy"]
 end
 def summon_captain_planet(planeteer_calls) #upcase/element & w/ "!", twice again
     #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
