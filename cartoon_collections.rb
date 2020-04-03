@@ -15,9 +15,9 @@ def long_planeteer_calls(array)# code an argument here
   i = 0
   if array.any?  {|i| i.length > 4}
     true
-  elsif return false
+  else return false
 end
-
+end
 def find_the_cheese(cheese_potentials)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
