@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves_list) # code an argument here
   dwarves.each do |dwarf| 
     puts dwarf
 end
-
+end
 def summon_captain_planet(planeteer_calls) #upcase/element & w/ "!", twice again
     #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
     #planeteer_calls.index[i]
