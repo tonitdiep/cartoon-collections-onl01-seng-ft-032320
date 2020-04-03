@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves_list) # code an argument here
   #dwarves_list.each_with_index
-  dwarves.each do |dwarf|
+  dwarves_list.each do |dwarf|
     puts dwarf
   end
 end
